@@ -3,7 +3,7 @@ import sys
 
 def throwErr(s):
     print(s)
-    input("Press enter to exit program")
+    #input("Press enter to exit program")
     exit()
 
 def main():
@@ -26,8 +26,7 @@ def main():
         print(calc.eksponenta(a,b))
     else:
         throwErr("Nav valīda darbība")
-    x=input("Press enter to exit program")
-    #exit()
+    return 0
 
 if __name__=="__main__":
     main()
